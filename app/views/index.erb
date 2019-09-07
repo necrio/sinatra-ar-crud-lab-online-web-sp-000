@@ -1,4 +1,9 @@
-<% @articles.each do |art| %>
-<h2> Title: <%= art.title %> </h2>
-<h2> Author: <%= art.author %> </h2>
+<ul>
+<% @articles.each do |article| %>
+  <li>
+    <a href="/articles/<%= article.id %>">
+      <%= article.title %> 
+    </a>
+  </li>
 <% end %>
+</ul> 
