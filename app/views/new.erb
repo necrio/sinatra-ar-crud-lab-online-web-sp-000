@@ -1,5 +1,14 @@
-<form action=”/books” method=”POST”>
-<h2> Title: <input type=”text” name=”book[title]”/></h2>
-<h2> Author: <input type=”text” name=”book[author]”/></h2>
-<input type=”submit”/>
-</form>
+<form action="/articles" method="post">
+  <ul>
+    <li>
+      <label for="title">Title</label>
+      <input id="title" type="text" name="title" />
+    </li>
+    <li>
+      <label for="content">Content</label>
+      <textarea id="content" type="text" name="content">
+      </textarea>
+    </li>
+  </ul>
+  <input type="submit" />
+</form> 
