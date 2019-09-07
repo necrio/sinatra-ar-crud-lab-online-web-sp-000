@@ -17,4 +17,5 @@ class ApplicationController < Sinatra::Base
     article = Article.new(params[:article])
     article.save
     redirect '/articles'
+  end
 end
