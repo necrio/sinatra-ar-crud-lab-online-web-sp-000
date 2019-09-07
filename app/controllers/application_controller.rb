@@ -14,5 +14,5 @@ class ApplicationController < Sinatra::Base
   end
   
   post '/articles' do 
-    article = 
+    article = Article.new
 end
