@@ -2,5 +2,6 @@
 
 class Article < ActiveRecord::Base
   
+  def change 
   
 end
