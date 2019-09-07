@@ -32,7 +32,7 @@ end
 delete ‘/articles/:id’ do
 @article = Article.find(params[:id])
 @article.destroy
-redirect “/books”
+redirect “/articles”
 end
 
 end
