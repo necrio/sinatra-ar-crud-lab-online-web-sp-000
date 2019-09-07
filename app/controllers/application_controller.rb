@@ -18,4 +18,6 @@ class ApplicationController < Sinatra::Base
     article.save
     redirect '/articles'
   end
+  
+  get ''
 end
