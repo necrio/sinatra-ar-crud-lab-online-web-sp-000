@@ -24,8 +24,8 @@ class ApplicationController < Sinatra::Base
     erb: index 
   end 
   
-  get ‘/article/:id/edit’ do
-@book = Book.find(params[:id])
+  get ‘/articles/:id/edit’ do
+@articles = Article.find(params[:id])
 erb :edit
 end
 end
