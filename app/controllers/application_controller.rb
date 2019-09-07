@@ -36,3 +36,4 @@ redirect “/articles”
 end
 
 end
+end
