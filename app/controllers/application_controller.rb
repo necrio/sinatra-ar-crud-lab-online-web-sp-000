@@ -13,5 +13,6 @@ class ApplicationController < Sinatra::Base
     
   end
   
-  post '/articles'
+  post '/articles' do 
+    
 end
