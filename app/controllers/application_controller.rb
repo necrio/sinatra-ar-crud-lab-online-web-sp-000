@@ -19,5 +19,6 @@ class ApplicationController < Sinatra::Base
     redirect '/articles'
   end
   
-  get '/articles' 
+  get '/articles' do 
+    
 end
