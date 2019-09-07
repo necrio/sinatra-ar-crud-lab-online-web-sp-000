@@ -7,5 +7,6 @@ class Article < ActiveRecord::Base
 t.string :title
 t.string :author
 end
+end
   
 end
